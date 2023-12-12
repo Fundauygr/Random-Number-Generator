@@ -1,0 +1,47 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: #ABAAAA;
+}
+
+#myButton {
+    font-size: 2em;
+    padding: 10px 25px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 5px rgba(252, 252, 86, 0.438);
+    border: none;
+    cursor: pointer;
+}
+
+
+#myButton:hover {
+    background-color: #ff4545;
+    box-shadow: 0px 0px 5px 5px rgb(252, 29, 29), 0px -5px 100px rgb(255, 38, 0);
+    color: white;
+
+}
+
+.div1 {
+    position: relative;
+    top: 200px;
+}
+
+.myLabels {
+    font-size: 2em;
+}
+
+img {
+    animation-name: questionMark;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: running;
+    height: 60px;
+    position: relative;
+    bottom: 50px;
+
+}
+
+@keyframes questionMark {
+    50%{transform: rotateZ(360deg);}
+}
